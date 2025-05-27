@@ -1,11 +1,13 @@
  Blockchain-based-certificate-verification-system
 
 Introduction
-
+![image](https://github.com/user-attachments/assets/b3614241-7951-4a8f-a4dc-de6a2a93157d)
 EduChain is a decentralized, tamper-proof platform designed to tackle the growing problem of academic certificate fraud. By leveraging a custom-built blockchain, this system enables real-time, transparent, and secure verification of academic credentials. The project serves both as a practical solution for institutions and recruiters, and as an educational tool for understanding core blockchain concepts.
 
 Architecture Overview
-![image](https://github.com/user-attachments/assets/b3614241-7951-4a8f-a4dc-de6a2a93157d)
+
+
+![Uploading image.png…]()
 
 EduChain follows a **three-tier architecture** with modular components:
 
