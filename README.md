@@ -31,7 +31,7 @@ Frontend
   - Proof-of-Work algorithm to prevent spam/fraud
   - Chain validation using `isChainValid()`
 
-### 🐳 Docker (Optional for Deployment)
+###  Docker (Optional for Deployment)
 - Lightweight containerized setup using `node:alpine`
 - Ensures environment consistency across machines
 - Deployed via `docker build` and `docker run`
@@ -53,7 +53,7 @@ Frontend
   
    - Getting Started
 
-### ✅ Prerequisites
+###  Prerequisites
 
 - Node.js v18+
 - npm v6+
@@ -62,7 +62,7 @@ Frontend
 - Visual Studio Code (recommended)
 
 
-🧪 Testing & Results
+ Testing & Results
 Tampering tests confirmed 100% detection success rate
 
 Real-time verification from frontend to blockchain
@@ -71,7 +71,7 @@ Load tested with 1,000+ concurrent certificate verifications
 
 Docker reduced deployment time by 96%
 
-🧩 Innovations & Future Scope
+ Innovations & Future Scope
 QR Code Integration: Enables offline verification
 
 Smart Contract Integration (Planned): For Ethereum-based automation
@@ -81,3 +81,55 @@ Mobile App Support: Field-level certificate validation
 P2P Networking: Decentralized verification system
 
 NFT Certificates: Credential ownership via blockchain tokens
+
+### ⚙️ Installation & Setup
+
+```bash
+# Clone the repo
+git clone https://github.com/yourusername/educhain.git
+cd educhain
+
+# Install dependencies
+npm install
+
+# Start backend server
+node index.js
+
+Docker (Optional)
+bash
+Copy
+Edit
+# Build Docker image
+docker build -t educhain .
+
+# Run container
+docker run -p 3000:3000 educhain
+
+Security Features
+SHA256-based hashing for tamper detection
+
+Proof-of-Work consensus to secure new entries
+
+JWT-based user authentication for role-restricted access
+
+HTTPS enforced for encrypted communication
+
+Input sanitization and token-based API protection
+
+🔄 APIs Overview
+POST /addCertificate: Add a new certificate block
+
+GET /getBlockchain: Retrieve the entire blockchain
+
+GET /verifyCertificate/:id: Verify a certificate by ID
+
+📸 Key Interfaces
+Home Page
+
+Login & Dashboard
+
+Add Certificate
+
+Verify Certificate
+
+Revoke Certificate (Advanced)
