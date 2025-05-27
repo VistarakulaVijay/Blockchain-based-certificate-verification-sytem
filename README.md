@@ -7,7 +7,7 @@ EduChain is a decentralized, tamper-proof platform designed to tackle the growin
 Architecture Overview
 
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/043bdee7-3d66-467c-9424-11d9e346adb8)
 
 EduChain follows a **three-tier architecture** with modular components:
 
@@ -64,6 +64,21 @@ Frontend
 - Docker (optional)
 - Web browser (Chrome/Firefox)
 - Visual Studio Code (recommended)
+
+###  Screenshots/Evidence  
+
+![image](https://github.com/user-attachments/assets/24c8c4c8-efee-454c-aa7a-bf8824823035)
+
+![image](https://github.com/user-attachments/assets/3162db1d-a2e8-4fdc-89df-5ab9de36db29)
+
+![image](https://github.com/user-attachments/assets/bf1c61e1-1ec9-492c-8bde-a38c41e0c6bf)
+
+![image](https://github.com/user-attachments/assets/36bfe797-2bf8-4d67-bc1a-b589a5cf76df)
+
+![Uploading image.png…]()
+
+
+
 
 
  Testing & Results
