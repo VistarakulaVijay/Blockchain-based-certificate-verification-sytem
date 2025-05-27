@@ -1,4 +1,4 @@
-# Blockchain-based-certificate-verification-system
+ Blockchain-based-certificate-verification-system
 
 Introduction
 
@@ -61,57 +61,6 @@ Frontend
 - Web browser (Chrome/Firefox)
 - Visual Studio Code (recommended)
 
-### ⚙️ Installation & Setup
-
-```bash
-# Clone the repo
-git clone https://github.com/yourusername/educhain.git
-cd educhain
-
-# Install dependencies
-npm install
-
-# Start backend server
-node index.js
-
-Docker (Optional)
-bash
-Copy
-Edit
-# Build Docker image
-docker build -t educhain .
-
-# Run container
-docker run -p 3000:3000 educhain
-
-Security Features
-SHA256-based hashing for tamper detection
-
-Proof-of-Work consensus to secure new entries
-
-JWT-based user authentication for role-restricted access
-
-HTTPS enforced for encrypted communication
-
-Input sanitization and token-based API protection
-
-🔄 APIs Overview
-POST /addCertificate: Add a new certificate block
-
-GET /getBlockchain: Retrieve the entire blockchain
-
-GET /verifyCertificate/:id: Verify a certificate by ID
-
-📸 Key Interfaces
-Home Page
-
-Login & Dashboard
-
-Add Certificate
-
-Verify Certificate
-
-Revoke Certificate (Advanced)
 
 🧪 Testing & Results
 Tampering tests confirmed 100% detection success rate
